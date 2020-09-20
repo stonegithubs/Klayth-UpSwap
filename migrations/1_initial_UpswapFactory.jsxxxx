@@ -1,0 +1,5 @@
+var UpswapFactory = artifacts.require("UpswapV2Factory");
+
+module.exports = function (deployer) {
+  deployer.deploy(UpswapFactory,"0xf9C65b67865D4C46d76CCEE2ECc268CC0877Bb33");
+};

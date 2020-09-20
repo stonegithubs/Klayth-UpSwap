@@ -1,0 +1,7 @@
+var  SushiToken= artifacts.require("SushiToken");
+var  MasterChef= artifacts.require("MasterChef");
+
+module.exports = function(deployer) {
+    //deployer.deploy(SushiToken);
+    deployer.deploy(MasterChef,"0x2c5e1E79f82ffe7730D8401C48B80C1f9Be99765","0xf9C65b67865D4C46d76CCEE2ECc268CC0877Bb33",200,38880000,38980000);
+};

@@ -1,0 +1,5 @@
+var SushiMaker= artifacts.require("SushiMaker");
+
+module.exports = function (deployer) {
+  deployer.deploy(SushiMaker,"0x4148c6fed52E830e7C343Df76d2f03fBB99AdFba","0x3cdc68D9Dd994663da332144C1548CDa0720d539","0x2c5e1E79f82ffe7730D8401C48B80C1f9Be99765","0xc0bffcd00feacc4f341ce95dba23f7e647099e7c");
+};

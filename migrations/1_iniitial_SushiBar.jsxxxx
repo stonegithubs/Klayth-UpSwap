@@ -1,0 +1,5 @@
+const SushiBar = artifacts.require("SushiBar");
+
+module.exports = function (deployer) {
+  deployer.deploy(SushiBar,"0x2c5e1E79f82ffe7730D8401C48B80C1f9Be99765");
+};
